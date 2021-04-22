@@ -23,10 +23,10 @@ class App(Flask):
 		return render_template("index.html")
 		
 	def register(self):
-		return "register"
+		return render_template("register.html")
 	
 	def login(self):
-		return "login"
+		return render_template("login.html")
 		
 	def run(self,host,port,debug=False):
 		super().run(host=host,port=port,debug=debug)

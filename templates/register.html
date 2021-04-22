@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="field">
+		<form action="/" method="post">
+		<input class="input" type="text" placeholder="Enter A Username" required/></div>
+		<div class="field">
+    <input class="input" type="email" placeholder="Enter A Email" required/>
+</div>
+<div class="field">
+    <input class="input" type="password" placeholder="Enter A Password" required/>
+</div>
+<div class="field">
+  <p class="control">
+    <button class="button is-success" type="submit">
+      Register
+    </button>
+		</form>
+  </p>
+</div>
+{% endblock %}
