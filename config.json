@@ -1,3 +1,4 @@
 {
-	"secret_key":"SECRET123###"
+	"secret_key":"SECRET123###",
+	"db_uri": "sqlite://kek.sql"
 }
