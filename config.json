@@ -1,4 +1,8 @@
 {
-	"secret_key":"SECRET123###",
-	"db_uri": "sqlite://kek.sql"
+	"secret_key":"secret123###",
+	"db_name":"dd4crfojj1l8m8",
+	"db_user":"rtgddmylrpknym",
+	"db_pw":"a4eb507e653734155633d540e11eeb88883c5082303b64499b91aa88f6b47686",
+	"db_host":"ec2-34-225-167-77.compute-1.amazonaws.com",
+	"db_port":5432
 }

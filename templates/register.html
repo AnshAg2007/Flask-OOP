@@ -1,21 +1,23 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<div class="field">
-		<form action="/" method="post">
-		<input class="input" type="text" placeholder="Enter A Username" required/></div>
+		<form action="/register" method="post">
+			<div class="field">
+				<input class="input" id="username" name="username" type="text" placeholder="Enter A Username" required/>
+		</div>
 		<div class="field">
-    <input class="input" type="email" placeholder="Enter A Email" required/>
+    <input class="input" id="email" name="email" type="email" placeholder="Enter A Email" required/>
 </div>
 <div class="field">
-    <input class="input" type="password" placeholder="Enter A Password" required/>
+    <input class="input" id="pw" name="pw" type="password" placeholder="Enter A Password" required/>
 </div>
 <div class="field">
   <p class="control">
-    <button class="button is-success" type="submit">
+    <button class="button" type="submit">
       Register
     </button>
-		</form>
+		
   </p>
 </div>
+</form>
 {% endblock %}
